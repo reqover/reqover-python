@@ -82,4 +82,4 @@ def test_can_get_pet_by_status(status):
 
 @pytest.mark.parametrize("id", [10])
 def test_can_delete_pet_by_id(id):
-    print(reqover(requests.delete(f"{BASE_URL}/v2/pet/{id}")).json())
+   reqover(requests.delete(f"{BASE_URL}/v2/pet/{id}"))
