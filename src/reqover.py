@@ -54,7 +54,7 @@ def save_result(result, path=None):
     if not is_exist:
         os.makedirs(results_dir)
 
-    suffix = str(uuid.uuid4())
+    suffix = result['uuid']
     file_name = f"{results_dir}/{suffix}-coverage.json"
     with open(file_name, 'w') as outfile:
         json.dump(result, outfile)
