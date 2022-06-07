@@ -33,3 +33,7 @@ jobs:
       - name: Run a multi-line script
         run: |
           pytest tests -sv
+
+      - name: Upload reqover results
+        run: |
+          ./reqover upload -s https://reqover-io.herokuapp.com -t 1jncya10aaks
