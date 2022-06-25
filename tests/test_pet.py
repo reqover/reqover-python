@@ -11,14 +11,14 @@ BASE_URL = 'https://petstore.swagger.io'
 @pytest.fixture(scope="session", autouse=True)
 def setup():
     yield
-    token = "3oyersu9nazj"
+    project_token = "3oyersu9nazj"
     data = {
         "name": "PR-1256",
         "serviceUrl": "https://petstore.swagger.io",
         "swaggerUrl": "https://petstore.swagger.io/v2/swagger.json",
         "basePath": "/v2",
     }
-    results_url = create_build(data, token)
+    results_url = create_build("https://reqover-io.herokuapp.com", data, project_token)
     upload_results(results_url)
 
 

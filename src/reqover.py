@@ -34,8 +34,8 @@ def wrap(response):
     return response
 
 
-def create_build(data, token):
-    res = requests.post(f"http://localhost:3000/{token}/builds", files={"file": ""}, data=data)
+def create_build(server_url, data, token):
+    res = requests.post(f"{server_url}/{token}/builds", files={"file": ""}, data=data)
     return res.json()['resultsPath']
 
 
