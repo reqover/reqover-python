@@ -13,7 +13,7 @@ def setup():
     yield
     project_token = "7h4wxjznpbcq"
     data = {
-        "name": "PR-1256",
+        "name": "Master",
         "serviceUrl": "https://petstore.swagger.io",
         "swaggerUrl": "https://petstore.swagger.io/v2/swagger.json",
         "basePath": "/v2",
