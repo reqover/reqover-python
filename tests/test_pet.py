@@ -11,7 +11,7 @@ BASE_URL = 'https://petstore.swagger.io'
 @pytest.fixture(scope="session", autouse=True)
 def setup():
     yield
-    project_token = "3oyersu9nazj"
+    project_token = "7h4wxjznpbcq"
     data = {
         "name": "PR-1256",
         "serviceUrl": "https://petstore.swagger.io",
