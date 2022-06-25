@@ -18,7 +18,7 @@ def setup():
         "name": os.getenv("BRANCH", "PR-1234"),
         "serviceUrl": "https://petstore.swagger.io",
         "swaggerUrl": "https://petstore.swagger.io/v2/swagger.json",
-        # "basePath": "/v2",
+        "basePath": "/v2",
     }
     results_url = create_build("https://reqover-io.herokuapp.com", data, project_token)
     upload_results(results_url)
