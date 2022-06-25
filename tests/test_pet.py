@@ -24,7 +24,7 @@ def setup():
     upload_results(results_url)
 
 
-@pytest.mark.parametrize("id", [1, 2, 3])
+@pytest.mark.parametrize("id", [1, 2, 3, None])
 def test_can_get_pet_by_id(id):
     print(wrap(requests.get(f"{BASE_URL}/v2/pet/{id}")).json())
 
