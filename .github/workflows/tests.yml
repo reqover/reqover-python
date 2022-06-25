@@ -29,11 +29,11 @@ jobs:
       - name: Run a one-line script
         run: pip install pytest requests
 
+      - name: Print args
+        run: |
+          - echo ${GITHUB_REF##*/}
+
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-          pytest tests -sv
-
-      - name: Upload reqover results
-        run: |
-          ./reqover upload -s https://reqover-io.herokuapp.com -t 1jncya10aaks
+          BRANCH=${GITHUB_REF##*/} pytest tests -sv

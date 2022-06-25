@@ -1,3 +1,5 @@
+import os
+
 import pytest
 import requests
 
@@ -13,7 +15,7 @@ def setup():
     yield
     project_token = "7h4wxjznpbcq"
     data = {
-        "name": "Master",
+        "name": os.getenv("BRANCH", "Master"),
         "serviceUrl": "https://petstore.swagger.io",
         "swaggerUrl": "https://petstore.swagger.io/v2/swagger.json",
         "basePath": "/v2",
