@@ -15,7 +15,7 @@ from urllib import parse
 import requests
 
 
-def wrap(response):
+def cover(response):
     req = response.request
 
     query_parameters = __parse_url_args(req.url)
