@@ -13,7 +13,7 @@ BASE_URL = 'https://petstore.swagger.io'
 @pytest.fixture(scope="session", autouse=True)
 def setup():
     yield
-    project_token = "jjpvondvslsb"
+    project_token = "zfgka4hnhzpf"
     data = {
         "name": os.getenv("BRANCH", "Master"),
         "serviceUrl": "https://petstore.swagger.io",
