@@ -52,5 +52,5 @@ jobs:
         uses: reqover/reqover-action@master
         with:
           projectToken: zfgka4hnhzpf
-          buildName: ${BRANCH_NAME}
+          buildName: ${{ BRANCH_NAME }}
           githubToken: ${{ secrets.GITHUB_TOKEN }}
