@@ -6,7 +6,7 @@ import requests
 from src.reqover import cover, upload_results, create_build
 
 BASE_URL = 'https://petstore.swagger.io'
-
+REQOVER_SERVER = 'https://reqover-io.herokuapp.com'
 
 # BASE_URL = 'http://localhost:3000/zscsguwimxhe/swagger'
 
@@ -20,7 +20,7 @@ def setup():
         "swaggerUrl": "https://petstore.swagger.io/v2/swagger.json",
         "basePath": "/v2",
     }
-    results_url = create_build("http://localhost:3000", data, project_token)
+    results_url = create_build(REQOVER_SERVER, data, project_token)
     upload_results(results_url)
 
 
