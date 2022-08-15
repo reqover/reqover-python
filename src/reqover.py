@@ -49,6 +49,7 @@ def upload_results(results_url, root_folder=os.path.join(sys.path[0], 'reqover-r
         with open(absolute_file_path, "r") as f:
             data = json.loads(f.read())
             requests.post(results_url, json=data)
+    finish_build(results_url)
 
 
 def __parse_url_args(url):
@@ -77,3 +78,7 @@ def __save_result(result, path=None):
     file_name = f"{results_dir}/{suffix}-coverage.json"
     with open(file_name, 'w') as outfile:
         json.dump(result, outfile)
+
+
+def finish_build(results_url):
+    requests.post(results_url, json={"type": "complete"})
