@@ -6,21 +6,24 @@ import requests
 from src.reqover import cover, upload_results, create_build
 
 BASE_URL = 'https://petstore.swagger.io'
+# BASE_URL = 'http://localhost:8080'
 REQOVER_SERVER = 'https://reqover-io.herokuapp.com'
+# REQOVER_SERVER = 'http://localhost:3000'
 
 # BASE_URL = 'http://localhost:3000/zscsguwimxhe/swagger'
 
+
 @pytest.fixture(scope="session", autouse=True)
 def setup():
-    yield
-    project_token = "zfgka4hnhzpf"
+    project_token = "4zjud4ttejxk"
     data = {
-        "name": os.getenv("BRANCH", "Master"),
+        "name": os.getenv("BRANCH", "Master-python"),
         "serviceUrl": "https://petstore.swagger.io",
         "swaggerUrl": "https://petstore.swagger.io/v2/swagger.json",
         "basePath": "/v2",
     }
     results_url = create_build(REQOVER_SERVER, data, project_token)
+    yield
     upload_results(results_url)
 
 

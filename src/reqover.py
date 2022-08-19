@@ -27,6 +27,10 @@ def cover(response):
         "statusCode": f"{response.status_code}",
         "parameters": query_parameters,
         "body": req.body,
+        "response": {
+            "body": response.json(),
+            "status_code": response.status_code
+        }
     }
 
     __save_result(result)
