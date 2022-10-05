@@ -13,9 +13,9 @@ REQOVER_SERVER = 'https://reqover-io.herokuapp.com'
 @pytest.fixture(scope="session", autouse=True)
 def setup():
     yield
-    project_token = "zfgka4hnhzpf"
+    project_token = "o5moiyopdmjs"
     data = {
-        "name": os.getenv("BRANCH", "Master"),
+        "name": os.getenv("BRANCH", "PR-1"),
         "serviceUrl": "https://petstore.swagger.io",
         "swaggerUrl": "https://petstore.swagger.io/v2/swagger.json",
         "basePath": "/v2",
@@ -37,3 +37,7 @@ def test_can_get_pet_by_status(status):
 @pytest.mark.parametrize("id", [10])
 def test_can_delete_pet_by_id(id):
     cover(requests.delete(f"{BASE_URL}/v2/pet/{id}"))
+
+
+def test_get_inventory():
+    cover(requests.get(f"{BASE_URL}/v2/store/inventory"))

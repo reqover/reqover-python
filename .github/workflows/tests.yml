@@ -51,6 +51,6 @@ jobs:
       - name: Publish reqover results
         uses: reqover/reqover-action@master
         with:
-          projectToken: zfgka4hnhzpf
+          projectToken: o5moiyopdmjs
           buildName: ${{ env.BRANCH_NAME }}
           githubToken: ${{ secrets.GITHUB_TOKEN }}
