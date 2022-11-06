@@ -1,4 +1,4 @@
-=== Python reqover 
+## Python reqover 
 
 1. Run tests and observe folder reqover-results
 2. Download swagger.json file https://petstore.swagger.io/v2/swagger.json
