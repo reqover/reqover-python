@@ -8,20 +8,21 @@ from src.reqover import cover, upload_results, create_build
 BASE_URL = 'https://petstore.swagger.io'
 REQOVER_SERVER = 'https://reqover-io.herokuapp.com'
 
+
 # BASE_URL = 'http://localhost:3000/zscsguwimxhe/swagger'
 
-@pytest.fixture(scope="session", autouse=True)
-def setup():
-    yield
-    project_token = "o5moiyopdmjs"
-    data = {
-        "name": os.getenv("BRANCH", "PR-1"),
-        "serviceUrl": "https://petstore.swagger.io",
-        "swaggerUrl": "https://petstore.swagger.io/v2/swagger.json",
-        "basePath": "/v2",
-    }
-    results_url = create_build(REQOVER_SERVER, data, project_token)
-    upload_results(results_url)
+# @pytest.fixture(scope="session", autouse=True)
+# def setup():
+#     yield
+#     project_token = "o5moiyopdmjs"
+#     data = {
+#         "name": os.getenv("BRANCH", "PR-1"),
+#         "serviceUrl": "https://petstore.swagger.io",
+#         "swaggerUrl": "https://petstore.swagger.io/v2/swagger.json",
+#         "basePath": "/v2",
+#     }
+#     results_url = create_build(REQOVER_SERVER, data, project_token)
+#     upload_results(results_url)
 
 
 @pytest.mark.parametrize("id", [1, 2, 3, None])
