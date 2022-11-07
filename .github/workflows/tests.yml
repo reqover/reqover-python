@@ -65,3 +65,8 @@ jobs:
         with:
           name: reqover-report
           path: .reqover/report
+
+      - name: Deploy 🚀
+          uses: JamesIves/github-pages-deploy-action@v4
+          with:
+            folder: .reqover/report
