@@ -15,3 +15,10 @@ npx reqover serve
 ```
 
 4. Open browser at http://localhost:3000
+
+```
+docker run -v $PWD:/reqover \
+-v $PWD/data:/tmp/data \
+-v $PWD/swagger.json:/tmp/swagger.json \
+reqover/reqover-cli generate -f /tmp/swagger.json -d /tmp/data -p /v2 --html                        
+```
