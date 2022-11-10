@@ -56,7 +56,7 @@ jobs:
       - uses: actions/upload-artifact@v3
         with:
           name: reqover-report
-          path: .reqover
+          path: index.html
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
