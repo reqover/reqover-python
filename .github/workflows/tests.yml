@@ -46,18 +46,12 @@ jobs:
         run: |
           BRANCH=${BRANCH_NAME} pytest tests -sv
 
-#      - name: Publish reqover results
-#        uses: reqover/reqover-action@master
-#        with:
-#          projectToken: o5moiyopdmjs
-#          buildName: ${{ env.BRANCH_NAME }}
-#          githubToken: ${{ secrets.GITHUB_TOKEN }}
       - name: Generate coverage report
         run: | 
           docker run -v $PWD:/reqover \
             -v $PWD/reqover-results:/tmp/data \
             -v $PWD/swagger.json:/tmp/swagger.json \
-            reqover/reqover-cli generate -f /tmp/swagger.json -d /tmp/data -p /v2 --distribution=v0.0.5 --html
+            reqover/reqover-cli generate -f /tmp/swagger.json -d /tmp/data -p /v2 --html
 
       - uses: actions/upload-artifact@v3
         with:
