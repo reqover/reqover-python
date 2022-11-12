@@ -42,8 +42,8 @@ def test_can_delete_pet_by_id(id):
 
 
 def test_get_inventory():
-    cover(requests.get(f"{BASE_URL}/v2/store/inventory"))
+    requests.get(f"{BASE_URL}/v2/store/inventory")
 
 
 def test_can_delete_pet():
-    cover(requests.delete(f"{BASE_URL}/v2/pet/1"))
+    requests.delete(f"{BASE_URL}/v2/pet/1")
