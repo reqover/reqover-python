@@ -45,6 +45,9 @@ jobs:
       - name: Start recorder
         run: docker run -d -p 3000:3000 -v $PWD:/reqover reqover/reqover-cli record -t https://petstore.swagger.io
 
+      - name: Show containers
+        run: docker ps
+
       - name: Run a multi-line script
         run: |
           BRANCH=${BRANCH_NAME} pytest tests -sv
