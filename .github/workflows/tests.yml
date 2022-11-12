@@ -45,10 +45,10 @@ jobs:
       - name: Start recorder
         run: | 
           docker run -d -p 8080:3000 \
-            -v $PWD:/reqover reqover/reqover-cli record -t https://petstore.swagger.io
+            -v $PWD:/reqover --name reqover reqover/reqover-cli record -t https://petstore.swagger.io
 
       - name: Show containers
-        run: docker ps
+        run: docker logs reqover
 
       - name: Run a multi-line script
         run: |
