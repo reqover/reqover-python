@@ -43,7 +43,9 @@ jobs:
           echo ${BRANCH_NAME}
 
       - name: Start recorder
-        run: docker run -d -p 3000:3000 -v $PWD:/reqover reqover/reqover-cli record -t https://petstore.swagger.io
+        run: | 
+          docker run -d -p 3000:3000 \
+            -v $PWD:/reqover reqover/reqover-cli record -t https://petstore.swagger.io -p 8080
 
       - name: Show containers
         run: docker ps
