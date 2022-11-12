@@ -5,7 +5,8 @@ import requests
 
 from src.reqover import cover, upload_results, create_build
 
-BASE_URL = 'https://petstore.swagger.io'
+# BASE_URL = 'https://petstore.swagger.io'
+BASE_URL = 'http://localhost:3000'
 REQOVER_SERVER = 'https://reqover-io.herokuapp.com'
 
 
@@ -27,17 +28,17 @@ REQOVER_SERVER = 'https://reqover-io.herokuapp.com'
 
 @pytest.mark.parametrize("id", [1, 2, 3, None])
 def test_can_get_pet_by_id(id):
-    cover(requests.get(f"{BASE_URL}/v2/pet/{id}")).json()
+    requests.get(f"{BASE_URL}/v2/pet/{id}").json()
 
 
 @pytest.mark.parametrize("status", ["available", "sold", "net", "sold, available"])
 def test_can_get_pet_by_status(status):
-    cover(requests.get(f"{BASE_URL}/v2/pet/findByStatus", params={"status": status})).json()
+    requests.get(f"{BASE_URL}/v2/pet/findByStatus", params={"status": status}).json()
 
 
 @pytest.mark.parametrize("id", [10])
 def test_can_delete_pet_by_id(id):
-    cover(requests.delete(f"{BASE_URL}/v2/pet/{id}"))
+    requests.delete(f"{BASE_URL}/v2/pet/{id}")
 
 
 def test_get_inventory():
