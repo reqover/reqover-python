@@ -5,9 +5,10 @@
 ```
 docker run -p 3000:3000 -v $PWD:/reqover reqover/reqover-cli record -t https://petstore.swagger.io
 ```
-2. Run tests and observe folder reqover-results
-3. Download swagger.json file https://petstore.swagger.io/v2/swagger.json
-4. Run command to generate coverage report
+2. Set your test base host as http://localhost:3000
+3. Run tests and observe folder reqover-results
+4. Download swagger.json file https://petstore.swagger.io/v2/swagger.json
+5. Run command to generate coverage report
 
 ```commandline
 npx reqover generate -f swagger.json -d reqover-results --html
