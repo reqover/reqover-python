@@ -48,7 +48,7 @@ jobs:
             -v $PWD:/reqover --name reqover reqover/reqover-cli record -t https://petstore.swagger.io
 
       - name: Show containers
-        run: docker reqover/reqover-cli --version && run docker logs reqover
+        run: docker run reqover/reqover-cli --version && run docker logs reqover
 
       - name: Run a multi-line script
         run: |
