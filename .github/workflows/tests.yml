@@ -54,6 +54,9 @@ jobs:
         run: |
           BRANCH=${BRANCH_NAME} pytest tests -sv
 
+      - name: Show files
+        run: la -la
+
       - name: Generate coverage report
         run: | 
           docker run -v $PWD:/reqover \
