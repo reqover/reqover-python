@@ -5,7 +5,7 @@
 #             statusCode: responseStatus,
 #             parameters: queryParameters,
 #             body: body,
-#         }
+# }
 import json
 import os
 import sys
