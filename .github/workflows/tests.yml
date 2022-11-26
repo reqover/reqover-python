@@ -55,7 +55,7 @@ jobs:
           BRANCH=${BRANCH_NAME} pytest tests -sv
 
       - name: Show files
-        run: la -la
+        run: ls -la
 
       - name: Generate coverage report
         run: | 
