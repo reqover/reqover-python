@@ -61,9 +61,6 @@ jobs:
             -v $PWD/swagger.json:/tmp/swagger.json \
             reqover/reqover-cli generate -f /tmp/swagger.json -d /tmp/data -p /v2 --html
 
-      - name: Show files
-        run: ls -la
-
       - uses: actions/upload-artifact@v3
         with:
           name: reqover-report
