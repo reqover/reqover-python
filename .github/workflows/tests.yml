@@ -69,7 +69,7 @@ jobs:
       - name: Publish Reqover results
         uses: reqover/reqover-action@master
         with:
-          filePath: "./coverage.json"
+#          filePath: "./coverage.json"
           githubToken: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Deploy 🚀
