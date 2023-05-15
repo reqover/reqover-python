@@ -5,8 +5,9 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <!-- Bootstrap CSS -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+        <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+        <link href="./assets/css/bootstrap-icons.css" rel="stylesheet">
+
         <title>Reqover</title>
         <style>
             .api-path {
@@ -191,7 +192,7 @@
                                 <span class="badge bg-warning rounded-pill">3</span>
                             </button>
                         </li>
-                        <li class="nav-item" role="presentation">
+                        <!-- <li class="nav-item" role="presentation">
                             <button
                                 class="nav-link"
                                 id="conditional-tab"
@@ -205,7 +206,7 @@
                                 Conditional
                                 <span class="badge bg-primary rounded-pill">0</span>
                             </button>
-                        </li>
+                        </li> -->
                         <li class="nav-item" role="presentation">
                             <button
                                 class="nav-link"
@@ -231,14 +232,14 @@
             class="accordion-button"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#collapse-Main-pet"
+            data-bs-target="#collapse-Main-47df3138-e2b9-4d1f-b715-53951469da41"
             aria-expanded="true"
             aria-controls="collapsepet"
         >
             pet
         </button>
     </h2>
-    <div id="collapse-Main-pet" class="accordion-collapse collapse" aria-labelledby="headingpet" data-bs-parent="#accordionMain">
+    <div id="collapse-Main-47df3138-e2b9-4d1f-b715-53951469da41" class="accordion-collapse collapse" aria-labelledby="heading-47df3138-e2b9-4d1f-b715-53951469da41" data-bs-parent="#accordionMain">
         <div class="accordion-body">
             <div class="accordion" id="accordionpet">
                  <div class="accordion-item">
@@ -247,7 +248,7 @@
             class="accordion-button"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#collapse-Main-pet-0"
+            data-bs-target="#collapse-Main-47df3138-e2b9-4d1f-b715-53951469da41-0"
             aria-expanded="true"
             aria-controls="collapse-0"
         >
@@ -274,27 +275,27 @@
             </div>
         </button>
     </h2>
-    <div id="collapse-Main-pet-0" class="accordion-collapse collapse" aria-labelledby="heading-Main-pet-0" data-bs-parent="#accordionpet">
+    <div id="collapse-Main-47df3138-e2b9-4d1f-b715-53951469da41-0" class="accordion-collapse collapse" aria-labelledby="heading-Main-47df3138-e2b9-4d1f-b715-53951469da41-0" data-bs-parent="#accordion47df3138-e2b9-4d1f-b715-53951469da41">
         <div class="accordion-body">
             <div class="card">
                 <div class="card-header">Status codes:</div>
                 <ul class="list-group list-group-flush">
                     
-                
-                    
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status 400
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status 400
+                                        </div>
+                                         <small><span class="response-description">Invalid ID supplied</span></small> 
                                     </div>
-                                     <small><span class="response-description">Invalid ID supplied</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
                     
                 
                     
@@ -305,9 +306,9 @@
                                     <div class="ms-2 me-auto">
                                         <div>
                                             <i class="bi bi-check2"></i>
-                                            HTTP status 200
+                                            HTTP status 404
                                         </div>
-                                         <small><span class="response-description">successful operation</span></small> 
+                                         <small><span class="response-description">Pet not found</span></small> 
                                     </div>
                                 </div>
                             </div>    
@@ -321,9 +322,9 @@
                                     <div class="ms-2 me-auto">
                                         <div>
                                             <i class="bi bi-check2"></i>
-                                            HTTP status 404
+                                            HTTP status 200
                                         </div>
-                                         <small><span class="response-description">Pet not found</span></small> 
+                                         <small><span class="response-description">successful operation</span></small> 
                                     </div>
                                 </div>
                             </div>    
@@ -345,32 +346,18 @@
                             <div class="accordion-item covered-parameter-item">
                                 <div class="row">
                                     <div class="col-12">
-                                        <button class="accordion-button covered-parameter-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-param-0-GET-v2-pet-petId" aria-expanded="true" aria-controls="collapse-param-0">
+                                        <button class="accordion-button covered-parameter-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-param-0-GET50fb39b9-351d-43f8-b5b6-8fea71a5a81d" aria-expanded="true" aria-controls="collapse-param-0">
                                             <div>
                                                 <i class="bi bi-check2"></i>
                                                 In path parameter {petId}
                                             </div>
                                         </button> 
-                                        <div id="collapse-param-0-GET-v2-pet-petId" class="accordion-collapse collapse covered-parameter-body" aria-labelledby="collapse-param-0" data-bs-parent="#accordionExample">
+                                        <div id="collapse-param-0-GET50fb39b9-351d-43f8-b5b6-8fea71a5a81d" class="accordion-collapse collapse covered-parameter-body" aria-labelledby="collapse-param-0" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
                                                 
                                                         
                                                     <div>
-                                                        <small>Covered petId: 2 (200)</small>
-                                                    </div>
-                                                    
-                                                    
-                                                
-                                                        
-                                                    <div>
-                                                        <small>Covered petId: 1 (404)</small>
-                                                    </div>
-                                                    
-                                                    
-                                                
-                                                        
-                                                    <div>
-                                                        <small>Covered petId: None (404)</small>
+                                                        <small>Covered petId: 2 (404)</small>
                                                     </div>
                                                     
                                                     
@@ -378,6 +365,20 @@
                                                         
                                                     <div>
                                                         <small>Covered petId: 3 (404)</small>
+                                                    </div>
+                                                    
+                                                    
+                                                
+                                                        
+                                                    <div>
+                                                        <small>Covered petId: 1 (200)</small>
+                                                    </div>
+                                                    
+                                                    
+                                                
+                                                        
+                                                    <div>
+                                                        <small>Covered petId: None (404)</small>
                                                     </div>
                                                     
                                                     
@@ -407,7 +408,7 @@
             class="accordion-button"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#collapse-Main-pet-1"
+            data-bs-target="#collapse-Main-47df3138-e2b9-4d1f-b715-53951469da41-1"
             aria-expanded="true"
             aria-controls="collapse-1"
         >
@@ -434,27 +435,27 @@
             </div>
         </button>
     </h2>
-    <div id="collapse-Main-pet-1" class="accordion-collapse collapse" aria-labelledby="heading-Main-pet-1" data-bs-parent="#accordionpet">
+    <div id="collapse-Main-47df3138-e2b9-4d1f-b715-53951469da41-1" class="accordion-collapse collapse" aria-labelledby="heading-Main-47df3138-e2b9-4d1f-b715-53951469da41-1" data-bs-parent="#accordion47df3138-e2b9-4d1f-b715-53951469da41">
         <div class="accordion-body">
             <div class="card">
                 <div class="card-header">Status codes:</div>
                 <ul class="list-group list-group-flush">
                     
-                
-                    
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status 405
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status 405
+                                        </div>
+                                         <small><span class="response-description">Invalid input</span></small> 
                                     </div>
-                                     <small><span class="response-description">Invalid input</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
                     
                 
                     
@@ -522,7 +523,7 @@
             class="accordion-button"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#collapse-Main-pet-2"
+            data-bs-target="#collapse-Main-47df3138-e2b9-4d1f-b715-53951469da41-2"
             aria-expanded="true"
             aria-controls="collapse-2"
         >
@@ -537,39 +538,55 @@
                         <div
                             class="progress-bar progress-bar-striped bg-warning"
                             role="progressbar"
-                            style="width: 67%"
+                            style="width: 33%"
                             aria-valuenow=""
                             aria-valuemin="0"
                             aria-valuemax="100"
                         >
-                            67
+                            33
                         </div>
                     </div>
                 </div>
             </div>
         </button>
     </h2>
-    <div id="collapse-Main-pet-2" class="accordion-collapse collapse" aria-labelledby="heading-Main-pet-2" data-bs-parent="#accordionpet">
+    <div id="collapse-Main-47df3138-e2b9-4d1f-b715-53951469da41-2" class="accordion-collapse collapse" aria-labelledby="heading-Main-47df3138-e2b9-4d1f-b715-53951469da41-2" data-bs-parent="#accordion47df3138-e2b9-4d1f-b715-53951469da41">
         <div class="accordion-body">
             <div class="card">
                 <div class="card-header">Status codes:</div>
                 <ul class="list-group list-group-flush">
                     
-                
-                    
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status 400
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status 400
+                                        </div>
+                                         <small><span class="response-description">Invalid ID supplied</span></small> 
                                     </div>
-                                     <small><span class="response-description">Invalid ID supplied</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
+                    
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status 404
+                                        </div>
+                                         <small><span class="response-description">Pet not found</span></small> 
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                            
                     
                 
                     
@@ -589,22 +606,6 @@
                         </li>
                             
                     
-                        
-                        <li class="list-group-item list-group-item-success">
-                            <div class="row">
-                                <div class="col-12">  
-                                    <div class="ms-2 me-auto">
-                                        <div>
-                                            <i class="bi bi-check2"></i>
-                                            HTTP status 404
-                                        </div>
-                                         <small><span class="response-description">Pet not found</span></small> 
-                                    </div>
-                                </div>
-                            </div>    
-                        </li>
-                            
-                    
                 </ul>
             </div>
             
@@ -620,25 +621,25 @@
                             <div class="accordion-item covered-parameter-item">
                                 <div class="row">
                                     <div class="col-12">
-                                        <button class="accordion-button covered-parameter-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-param-0-DELETE-v2-pet-petId" aria-expanded="true" aria-controls="collapse-param-0">
+                                        <button class="accordion-button covered-parameter-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-param-0-DELETE64aff24d-f0db-47b4-aa72-c9c310f85dfd" aria-expanded="true" aria-controls="collapse-param-0">
                                             <div>
                                                 <i class="bi bi-check2"></i>
                                                 In path parameter {petId}
                                             </div>
                                         </button> 
-                                        <div id="collapse-param-0-DELETE-v2-pet-petId" class="accordion-collapse collapse covered-parameter-body" aria-labelledby="collapse-param-0" data-bs-parent="#accordionExample">
+                                        <div id="collapse-param-0-DELETE64aff24d-f0db-47b4-aa72-c9c310f85dfd" class="accordion-collapse collapse covered-parameter-body" aria-labelledby="collapse-param-0" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
                                                 
                                                         
                                                     <div>
-                                                        <small>Covered petId: 10 (200)</small>
+                                                        <small>Covered petId: 1 (200)</small>
                                                     </div>
                                                     
                                                     
                                                 
                                                         
                                                     <div>
-                                                        <small>Covered petId: 1 (404)</small>
+                                                        <small>Covered petId: 10 (200)</small>
                                                     </div>
                                                     
                                                     
@@ -668,7 +669,7 @@
             class="accordion-button"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#collapse-Main-pet-3"
+            data-bs-target="#collapse-Main-47df3138-e2b9-4d1f-b715-53951469da41-3"
             aria-expanded="true"
             aria-controls="collapse-3"
         >
@@ -695,27 +696,27 @@
             </div>
         </button>
     </h2>
-    <div id="collapse-Main-pet-3" class="accordion-collapse collapse" aria-labelledby="heading-Main-pet-3" data-bs-parent="#accordionpet">
+    <div id="collapse-Main-47df3138-e2b9-4d1f-b715-53951469da41-3" class="accordion-collapse collapse" aria-labelledby="heading-Main-47df3138-e2b9-4d1f-b715-53951469da41-3" data-bs-parent="#accordion47df3138-e2b9-4d1f-b715-53951469da41">
         <div class="accordion-body">
             <div class="card">
                 <div class="card-header">Status codes:</div>
                 <ul class="list-group list-group-flush">
                     
-                
-                    
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status 200
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status 200
+                                        </div>
+                                         <small><span class="response-description">successful operation</span></small> 
                                     </div>
-                                     <small><span class="response-description">successful operation</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
                     
                 
                     
@@ -783,7 +784,7 @@
             class="accordion-button"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#collapse-Main-pet-4"
+            data-bs-target="#collapse-Main-47df3138-e2b9-4d1f-b715-53951469da41-4"
             aria-expanded="true"
             aria-controls="collapse-4"
         >
@@ -810,27 +811,27 @@
             </div>
         </button>
     </h2>
-    <div id="collapse-Main-pet-4" class="accordion-collapse collapse" aria-labelledby="heading-Main-pet-4" data-bs-parent="#accordionpet">
+    <div id="collapse-Main-47df3138-e2b9-4d1f-b715-53951469da41-4" class="accordion-collapse collapse" aria-labelledby="heading-Main-47df3138-e2b9-4d1f-b715-53951469da41-4" data-bs-parent="#accordion47df3138-e2b9-4d1f-b715-53951469da41">
         <div class="accordion-body">
             <div class="card">
                 <div class="card-header">Status codes:</div>
                 <ul class="list-group list-group-flush">
                     
-                
-                    
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status 405
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status 405
+                                        </div>
+                                         <small><span class="response-description">Invalid input</span></small> 
                                     </div>
-                                     <small><span class="response-description">Invalid input</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
                     
                 
                     
@@ -870,7 +871,7 @@
             class="accordion-button"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#collapse-Main-pet-5"
+            data-bs-target="#collapse-Main-47df3138-e2b9-4d1f-b715-53951469da41-5"
             aria-expanded="true"
             aria-controls="collapse-5"
         >
@@ -897,55 +898,59 @@
             </div>
         </button>
     </h2>
-    <div id="collapse-Main-pet-5" class="accordion-collapse collapse" aria-labelledby="heading-Main-pet-5" data-bs-parent="#accordionpet">
+    <div id="collapse-Main-47df3138-e2b9-4d1f-b715-53951469da41-5" class="accordion-collapse collapse" aria-labelledby="heading-Main-47df3138-e2b9-4d1f-b715-53951469da41-5" data-bs-parent="#accordion47df3138-e2b9-4d1f-b715-53951469da41">
         <div class="accordion-body">
             <div class="card">
                 <div class="card-header">Status codes:</div>
                 <ul class="list-group list-group-flush">
                     
-                
-                    
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status 400
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status 400
+                                        </div>
+                                         <small><span class="response-description">Invalid ID supplied</span></small> 
                                     </div>
-                                     <small><span class="response-description">Invalid ID supplied</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
                     
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status 404
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status 404
+                                        </div>
+                                         <small><span class="response-description">Pet not found</span></small> 
                                     </div>
-                                     <small><span class="response-description">Pet not found</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
                     
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status 405
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status 405
+                                        </div>
+                                         <small><span class="response-description">Validation exception</span></small> 
                                     </div>
-                                     <small><span class="response-description">Validation exception</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
                     
                 
                     
@@ -985,7 +990,7 @@
             class="accordion-button"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#collapse-Main-pet-6"
+            data-bs-target="#collapse-Main-47df3138-e2b9-4d1f-b715-53951469da41-6"
             aria-expanded="true"
             aria-controls="collapse-6"
         >
@@ -1012,27 +1017,27 @@
             </div>
         </button>
     </h2>
-    <div id="collapse-Main-pet-6" class="accordion-collapse collapse" aria-labelledby="heading-Main-pet-6" data-bs-parent="#accordionpet">
+    <div id="collapse-Main-47df3138-e2b9-4d1f-b715-53951469da41-6" class="accordion-collapse collapse" aria-labelledby="heading-Main-47df3138-e2b9-4d1f-b715-53951469da41-6" data-bs-parent="#accordion47df3138-e2b9-4d1f-b715-53951469da41">
         <div class="accordion-body">
             <div class="card">
                 <div class="card-header">Status codes:</div>
                 <ul class="list-group list-group-flush">
                     
-                
-                    
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status 400
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status 400
+                                        </div>
+                                         <small><span class="response-description">Invalid status value</span></small> 
                                     </div>
-                                     <small><span class="response-description">Invalid status value</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
                     
                 
                     
@@ -1067,18 +1072,18 @@
                             <div class="accordion-item covered-parameter-item">
                                 <div class="row">
                                     <div class="col-12">
-                                        <button class="accordion-button covered-parameter-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-param-0-GET-v2-pet-findByStatus" aria-expanded="true" aria-controls="collapse-param-0">
+                                        <button class="accordion-button covered-parameter-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-param-0-GET651157be-632e-46d9-a268-d13d6e94a4ea" aria-expanded="true" aria-controls="collapse-param-0">
                                             <div>
                                                 <i class="bi bi-check2"></i>
                                                 In query parameter {status}
                                             </div>
                                         </button> 
-                                        <div id="collapse-param-0-GET-v2-pet-findByStatus" class="accordion-collapse collapse covered-parameter-body" aria-labelledby="collapse-param-0" data-bs-parent="#accordionExample">
+                                        <div id="collapse-param-0-GET651157be-632e-46d9-a268-d13d6e94a4ea" class="accordion-collapse collapse covered-parameter-body" aria-labelledby="collapse-param-0" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
                                                 
                                                         
                                                     <div>
-                                                        <small>Covered status: sold, available (200)</small>
+                                                        <small>Covered status: sold (200)</small>
                                                     </div>
                                                     
                                                     
@@ -1099,7 +1104,7 @@
                                                 
                                                         
                                                     <div>
-                                                        <small>Covered status: sold (200)</small>
+                                                        <small>Covered status: sold, available (200)</small>
                                                     </div>
                                                     
                                                     
@@ -1141,7 +1146,7 @@
             class="accordion-button"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#collapse-Main-pet-7"
+            data-bs-target="#collapse-Main-47df3138-e2b9-4d1f-b715-53951469da41-7"
             aria-expanded="true"
             aria-controls="collapse-7"
         >
@@ -1168,41 +1173,43 @@
             </div>
         </button>
     </h2>
-    <div id="collapse-Main-pet-7" class="accordion-collapse collapse" aria-labelledby="heading-Main-pet-7" data-bs-parent="#accordionpet">
+    <div id="collapse-Main-47df3138-e2b9-4d1f-b715-53951469da41-7" class="accordion-collapse collapse" aria-labelledby="heading-Main-47df3138-e2b9-4d1f-b715-53951469da41-7" data-bs-parent="#accordion47df3138-e2b9-4d1f-b715-53951469da41">
         <div class="accordion-body">
             <div class="card">
                 <div class="card-header">Status codes:</div>
                 <ul class="list-group list-group-flush">
                     
-                
-                    
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status 200
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status 200
+                                        </div>
+                                         <small><span class="response-description">successful operation</span></small> 
                                     </div>
-                                     <small><span class="response-description">successful operation</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
                     
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status 400
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status 400
+                                        </div>
+                                         <small><span class="response-description">Invalid tag value</span></small> 
                                     </div>
-                                     <small><span class="response-description">Invalid tag value</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
                     
                 
                     
@@ -1247,14 +1254,14 @@
             class="accordion-button"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#collapse-Main-store"
+            data-bs-target="#collapse-Main-da695103-f238-42c5-bc1e-16a867a32e0c"
             aria-expanded="true"
             aria-controls="collapsestore"
         >
             store
         </button>
     </h2>
-    <div id="collapse-Main-store" class="accordion-collapse collapse" aria-labelledby="headingstore" data-bs-parent="#accordionMain">
+    <div id="collapse-Main-da695103-f238-42c5-bc1e-16a867a32e0c" class="accordion-collapse collapse" aria-labelledby="heading-da695103-f238-42c5-bc1e-16a867a32e0c" data-bs-parent="#accordionMain">
         <div class="accordion-body">
             <div class="accordion" id="accordionstore">
                  <div class="accordion-item">
@@ -1263,7 +1270,7 @@
             class="accordion-button"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#collapse-Main-store-0"
+            data-bs-target="#collapse-Main-da695103-f238-42c5-bc1e-16a867a32e0c-0"
             aria-expanded="true"
             aria-controls="collapse-0"
         >
@@ -1290,41 +1297,43 @@
             </div>
         </button>
     </h2>
-    <div id="collapse-Main-store-0" class="accordion-collapse collapse" aria-labelledby="heading-Main-store-0" data-bs-parent="#accordionstore">
+    <div id="collapse-Main-da695103-f238-42c5-bc1e-16a867a32e0c-0" class="accordion-collapse collapse" aria-labelledby="heading-Main-da695103-f238-42c5-bc1e-16a867a32e0c-0" data-bs-parent="#accordionda695103-f238-42c5-bc1e-16a867a32e0c">
         <div class="accordion-body">
             <div class="card">
                 <div class="card-header">Status codes:</div>
                 <ul class="list-group list-group-flush">
                     
-                
-                    
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status 200
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status 200
+                                        </div>
+                                         <small><span class="response-description">successful operation</span></small> 
                                     </div>
-                                     <small><span class="response-description">successful operation</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
                     
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status 400
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status 400
+                                        </div>
+                                         <small><span class="response-description">Invalid Order</span></small> 
                                     </div>
-                                     <small><span class="response-description">Invalid Order</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
                     
                 
                     
@@ -1364,7 +1373,7 @@
             class="accordion-button"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#collapse-Main-store-1"
+            data-bs-target="#collapse-Main-da695103-f238-42c5-bc1e-16a867a32e0c-1"
             aria-expanded="true"
             aria-controls="collapse-1"
         >
@@ -1391,55 +1400,59 @@
             </div>
         </button>
     </h2>
-    <div id="collapse-Main-store-1" class="accordion-collapse collapse" aria-labelledby="heading-Main-store-1" data-bs-parent="#accordionstore">
+    <div id="collapse-Main-da695103-f238-42c5-bc1e-16a867a32e0c-1" class="accordion-collapse collapse" aria-labelledby="heading-Main-da695103-f238-42c5-bc1e-16a867a32e0c-1" data-bs-parent="#accordionda695103-f238-42c5-bc1e-16a867a32e0c">
         <div class="accordion-body">
             <div class="card">
                 <div class="card-header">Status codes:</div>
                 <ul class="list-group list-group-flush">
                     
-                
-                    
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status 200
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status 200
+                                        </div>
+                                         <small><span class="response-description">successful operation</span></small> 
                                     </div>
-                                     <small><span class="response-description">successful operation</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
                     
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status 400
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status 400
+                                        </div>
+                                         <small><span class="response-description">Invalid ID supplied</span></small> 
                                     </div>
-                                     <small><span class="response-description">Invalid ID supplied</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
                     
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status 404
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status 404
+                                        </div>
+                                         <small><span class="response-description">Order not found</span></small> 
                                     </div>
-                                     <small><span class="response-description">Order not found</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
                     
                 
                     
@@ -1479,7 +1492,7 @@
             class="accordion-button"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#collapse-Main-store-2"
+            data-bs-target="#collapse-Main-da695103-f238-42c5-bc1e-16a867a32e0c-2"
             aria-expanded="true"
             aria-controls="collapse-2"
         >
@@ -1506,41 +1519,43 @@
             </div>
         </button>
     </h2>
-    <div id="collapse-Main-store-2" class="accordion-collapse collapse" aria-labelledby="heading-Main-store-2" data-bs-parent="#accordionstore">
+    <div id="collapse-Main-da695103-f238-42c5-bc1e-16a867a32e0c-2" class="accordion-collapse collapse" aria-labelledby="heading-Main-da695103-f238-42c5-bc1e-16a867a32e0c-2" data-bs-parent="#accordionda695103-f238-42c5-bc1e-16a867a32e0c">
         <div class="accordion-body">
             <div class="card">
                 <div class="card-header">Status codes:</div>
                 <ul class="list-group list-group-flush">
                     
-                
-                    
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status 400
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status 400
+                                        </div>
+                                         <small><span class="response-description">Invalid ID supplied</span></small> 
                                     </div>
-                                     <small><span class="response-description">Invalid ID supplied</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
                     
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status 404
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status 404
+                                        </div>
+                                         <small><span class="response-description">Order not found</span></small> 
                                     </div>
-                                     <small><span class="response-description">Order not found</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
                     
                 
                     
@@ -1580,7 +1595,7 @@
             class="accordion-button"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#collapse-Main-store-3"
+            data-bs-target="#collapse-Main-da695103-f238-42c5-bc1e-16a867a32e0c-3"
             aria-expanded="true"
             aria-controls="collapse-3"
         >
@@ -1607,13 +1622,11 @@
             </div>
         </button>
     </h2>
-    <div id="collapse-Main-store-3" class="accordion-collapse collapse" aria-labelledby="heading-Main-store-3" data-bs-parent="#accordionstore">
+    <div id="collapse-Main-da695103-f238-42c5-bc1e-16a867a32e0c-3" class="accordion-collapse collapse" aria-labelledby="heading-Main-da695103-f238-42c5-bc1e-16a867a32e0c-3" data-bs-parent="#accordionda695103-f238-42c5-bc1e-16a867a32e0c">
         <div class="accordion-body">
             <div class="card">
                 <div class="card-header">Status codes:</div>
                 <ul class="list-group list-group-flush">
-                    
-                
                     
                 
                     
@@ -1650,14 +1663,14 @@
             class="accordion-button"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#collapse-Main-user"
+            data-bs-target="#collapse-Main-1cfdd8f9-eed1-44a1-b941-b8b5290fc754"
             aria-expanded="true"
             aria-controls="collapseuser"
         >
             user
         </button>
     </h2>
-    <div id="collapse-Main-user" class="accordion-collapse collapse" aria-labelledby="headinguser" data-bs-parent="#accordionMain">
+    <div id="collapse-Main-1cfdd8f9-eed1-44a1-b941-b8b5290fc754" class="accordion-collapse collapse" aria-labelledby="heading-1cfdd8f9-eed1-44a1-b941-b8b5290fc754" data-bs-parent="#accordionMain">
         <div class="accordion-body">
             <div class="accordion" id="accordionuser">
                  <div class="accordion-item">
@@ -1666,7 +1679,7 @@
             class="accordion-button"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#collapse-Main-user-0"
+            data-bs-target="#collapse-Main-1cfdd8f9-eed1-44a1-b941-b8b5290fc754-0"
             aria-expanded="true"
             aria-controls="collapse-0"
         >
@@ -1693,27 +1706,27 @@
             </div>
         </button>
     </h2>
-    <div id="collapse-Main-user-0" class="accordion-collapse collapse" aria-labelledby="heading-Main-user-0" data-bs-parent="#accordionuser">
+    <div id="collapse-Main-1cfdd8f9-eed1-44a1-b941-b8b5290fc754-0" class="accordion-collapse collapse" aria-labelledby="heading-Main-1cfdd8f9-eed1-44a1-b941-b8b5290fc754-0" data-bs-parent="#accordion1cfdd8f9-eed1-44a1-b941-b8b5290fc754">
         <div class="accordion-body">
             <div class="card">
                 <div class="card-header">Status codes:</div>
                 <ul class="list-group list-group-flush">
                     
-                
-                    
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status default
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status default
+                                        </div>
+                                         <small><span class="response-description">successful operation</span></small> 
                                     </div>
-                                     <small><span class="response-description">successful operation</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
                     
                 
                     
@@ -1753,7 +1766,7 @@
             class="accordion-button"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#collapse-Main-user-1"
+            data-bs-target="#collapse-Main-1cfdd8f9-eed1-44a1-b941-b8b5290fc754-1"
             aria-expanded="true"
             aria-controls="collapse-1"
         >
@@ -1780,55 +1793,59 @@
             </div>
         </button>
     </h2>
-    <div id="collapse-Main-user-1" class="accordion-collapse collapse" aria-labelledby="heading-Main-user-1" data-bs-parent="#accordionuser">
+    <div id="collapse-Main-1cfdd8f9-eed1-44a1-b941-b8b5290fc754-1" class="accordion-collapse collapse" aria-labelledby="heading-Main-1cfdd8f9-eed1-44a1-b941-b8b5290fc754-1" data-bs-parent="#accordion1cfdd8f9-eed1-44a1-b941-b8b5290fc754">
         <div class="accordion-body">
             <div class="card">
                 <div class="card-header">Status codes:</div>
                 <ul class="list-group list-group-flush">
                     
-                
-                    
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status 200
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status 200
+                                        </div>
+                                         <small><span class="response-description">successful operation</span></small> 
                                     </div>
-                                     <small><span class="response-description">successful operation</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
                     
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status 400
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status 400
+                                        </div>
+                                         <small><span class="response-description">Invalid username supplied</span></small> 
                                     </div>
-                                     <small><span class="response-description">Invalid username supplied</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
                     
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status 404
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status 404
+                                        </div>
+                                         <small><span class="response-description">User not found</span></small> 
                                     </div>
-                                     <small><span class="response-description">User not found</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
                     
                 
                     
@@ -1868,7 +1885,7 @@
             class="accordion-button"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#collapse-Main-user-2"
+            data-bs-target="#collapse-Main-1cfdd8f9-eed1-44a1-b941-b8b5290fc754-2"
             aria-expanded="true"
             aria-controls="collapse-2"
         >
@@ -1895,41 +1912,43 @@
             </div>
         </button>
     </h2>
-    <div id="collapse-Main-user-2" class="accordion-collapse collapse" aria-labelledby="heading-Main-user-2" data-bs-parent="#accordionuser">
+    <div id="collapse-Main-1cfdd8f9-eed1-44a1-b941-b8b5290fc754-2" class="accordion-collapse collapse" aria-labelledby="heading-Main-1cfdd8f9-eed1-44a1-b941-b8b5290fc754-2" data-bs-parent="#accordion1cfdd8f9-eed1-44a1-b941-b8b5290fc754">
         <div class="accordion-body">
             <div class="card">
                 <div class="card-header">Status codes:</div>
                 <ul class="list-group list-group-flush">
                     
-                
-                    
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status 400
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status 400
+                                        </div>
+                                         <small><span class="response-description">Invalid user supplied</span></small> 
                                     </div>
-                                     <small><span class="response-description">Invalid user supplied</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
                     
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status 404
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status 404
+                                        </div>
+                                         <small><span class="response-description">User not found</span></small> 
                                     </div>
-                                     <small><span class="response-description">User not found</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
                     
                 
                     
@@ -1983,7 +2002,7 @@
             class="accordion-button"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#collapse-Main-user-3"
+            data-bs-target="#collapse-Main-1cfdd8f9-eed1-44a1-b941-b8b5290fc754-3"
             aria-expanded="true"
             aria-controls="collapse-3"
         >
@@ -2010,41 +2029,43 @@
             </div>
         </button>
     </h2>
-    <div id="collapse-Main-user-3" class="accordion-collapse collapse" aria-labelledby="heading-Main-user-3" data-bs-parent="#accordionuser">
+    <div id="collapse-Main-1cfdd8f9-eed1-44a1-b941-b8b5290fc754-3" class="accordion-collapse collapse" aria-labelledby="heading-Main-1cfdd8f9-eed1-44a1-b941-b8b5290fc754-3" data-bs-parent="#accordion1cfdd8f9-eed1-44a1-b941-b8b5290fc754">
         <div class="accordion-body">
             <div class="card">
                 <div class="card-header">Status codes:</div>
                 <ul class="list-group list-group-flush">
                     
-                
-                    
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status 400
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status 400
+                                        </div>
+                                         <small><span class="response-description">Invalid username supplied</span></small> 
                                     </div>
-                                     <small><span class="response-description">Invalid username supplied</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
                     
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status 404
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status 404
+                                        </div>
+                                         <small><span class="response-description">User not found</span></small> 
                                     </div>
-                                     <small><span class="response-description">User not found</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
                     
                 
                     
@@ -2084,7 +2105,7 @@
             class="accordion-button"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#collapse-Main-user-4"
+            data-bs-target="#collapse-Main-1cfdd8f9-eed1-44a1-b941-b8b5290fc754-4"
             aria-expanded="true"
             aria-controls="collapse-4"
         >
@@ -2111,41 +2132,43 @@
             </div>
         </button>
     </h2>
-    <div id="collapse-Main-user-4" class="accordion-collapse collapse" aria-labelledby="heading-Main-user-4" data-bs-parent="#accordionuser">
+    <div id="collapse-Main-1cfdd8f9-eed1-44a1-b941-b8b5290fc754-4" class="accordion-collapse collapse" aria-labelledby="heading-Main-1cfdd8f9-eed1-44a1-b941-b8b5290fc754-4" data-bs-parent="#accordion1cfdd8f9-eed1-44a1-b941-b8b5290fc754">
         <div class="accordion-body">
             <div class="card">
                 <div class="card-header">Status codes:</div>
                 <ul class="list-group list-group-flush">
                     
-                
-                    
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status 200
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status 200
+                                        </div>
+                                         <small><span class="response-description">successful operation</span></small> 
                                     </div>
-                                     <small><span class="response-description">successful operation</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
                     
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status 400
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status 400
+                                        </div>
+                                         <small><span class="response-description">Invalid username/password supplied</span></small> 
                                     </div>
-                                     <small><span class="response-description">Invalid username/password supplied</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
                     
                 
                     
@@ -2199,7 +2222,7 @@
             class="accordion-button"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#collapse-Main-user-5"
+            data-bs-target="#collapse-Main-1cfdd8f9-eed1-44a1-b941-b8b5290fc754-5"
             aria-expanded="true"
             aria-controls="collapse-5"
         >
@@ -2226,27 +2249,27 @@
             </div>
         </button>
     </h2>
-    <div id="collapse-Main-user-5" class="accordion-collapse collapse" aria-labelledby="heading-Main-user-5" data-bs-parent="#accordionuser">
+    <div id="collapse-Main-1cfdd8f9-eed1-44a1-b941-b8b5290fc754-5" class="accordion-collapse collapse" aria-labelledby="heading-Main-1cfdd8f9-eed1-44a1-b941-b8b5290fc754-5" data-bs-parent="#accordion1cfdd8f9-eed1-44a1-b941-b8b5290fc754">
         <div class="accordion-body">
             <div class="card">
                 <div class="card-header">Status codes:</div>
                 <ul class="list-group list-group-flush">
                     
-                
-                    
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status default
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status default
+                                        </div>
+                                         <small><span class="response-description">successful operation</span></small> 
                                     </div>
-                                     <small><span class="response-description">successful operation</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
                     
                 
                     
@@ -2262,7 +2285,7 @@
             class="accordion-button"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#collapse-Main-user-6"
+            data-bs-target="#collapse-Main-1cfdd8f9-eed1-44a1-b941-b8b5290fc754-6"
             aria-expanded="true"
             aria-controls="collapse-6"
         >
@@ -2289,27 +2312,27 @@
             </div>
         </button>
     </h2>
-    <div id="collapse-Main-user-6" class="accordion-collapse collapse" aria-labelledby="heading-Main-user-6" data-bs-parent="#accordionuser">
+    <div id="collapse-Main-1cfdd8f9-eed1-44a1-b941-b8b5290fc754-6" class="accordion-collapse collapse" aria-labelledby="heading-Main-1cfdd8f9-eed1-44a1-b941-b8b5290fc754-6" data-bs-parent="#accordion1cfdd8f9-eed1-44a1-b941-b8b5290fc754">
         <div class="accordion-body">
             <div class="card">
                 <div class="card-header">Status codes:</div>
                 <ul class="list-group list-group-flush">
                     
-                
-                    
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status default
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status default
+                                        </div>
+                                         <small><span class="response-description">successful operation</span></small> 
                                     </div>
-                                     <small><span class="response-description">successful operation</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
                     
                 
                     
@@ -2349,7 +2372,7 @@
             class="accordion-button"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#collapse-Main-user-7"
+            data-bs-target="#collapse-Main-1cfdd8f9-eed1-44a1-b941-b8b5290fc754-7"
             aria-expanded="true"
             aria-controls="collapse-7"
         >
@@ -2376,27 +2399,27 @@
             </div>
         </button>
     </h2>
-    <div id="collapse-Main-user-7" class="accordion-collapse collapse" aria-labelledby="heading-Main-user-7" data-bs-parent="#accordionuser">
+    <div id="collapse-Main-1cfdd8f9-eed1-44a1-b941-b8b5290fc754-7" class="accordion-collapse collapse" aria-labelledby="heading-Main-1cfdd8f9-eed1-44a1-b941-b8b5290fc754-7" data-bs-parent="#accordion1cfdd8f9-eed1-44a1-b941-b8b5290fc754">
         <div class="accordion-body">
             <div class="card">
                 <div class="card-header">Status codes:</div>
                 <ul class="list-group list-group-flush">
                     
-                
-                    
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status default
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status default
+                                        </div>
+                                         <small><span class="response-description">successful operation</span></small> 
                                     </div>
-                                     <small><span class="response-description">successful operation</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
                     
                 
                     
@@ -2447,14 +2470,14 @@
             class="accordion-button"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#collapse-Missing-pet"
+            data-bs-target="#collapse-Missing-466cbb57-7740-4036-a9ba-0a07d21bac7c"
             aria-expanded="true"
             aria-controls="collapsepet"
         >
             pet
         </button>
     </h2>
-    <div id="collapse-Missing-pet" class="accordion-collapse collapse" aria-labelledby="headingpet" data-bs-parent="#accordionMissing">
+    <div id="collapse-Missing-466cbb57-7740-4036-a9ba-0a07d21bac7c" class="accordion-collapse collapse" aria-labelledby="heading-466cbb57-7740-4036-a9ba-0a07d21bac7c" data-bs-parent="#accordionMissing">
         <div class="accordion-body">
             <div class="accordion" id="accordionpet">
                  <div class="accordion-item">
@@ -2463,7 +2486,7 @@
             class="accordion-button"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#collapse-Missing-pet-0"
+            data-bs-target="#collapse-Missing-466cbb57-7740-4036-a9ba-0a07d21bac7c-0"
             aria-expanded="true"
             aria-controls="collapse-0"
         >
@@ -2490,27 +2513,27 @@
             </div>
         </button>
     </h2>
-    <div id="collapse-Missing-pet-0" class="accordion-collapse collapse" aria-labelledby="heading-Missing-pet-0" data-bs-parent="#accordionpet">
+    <div id="collapse-Missing-466cbb57-7740-4036-a9ba-0a07d21bac7c-0" class="accordion-collapse collapse" aria-labelledby="heading-Missing-466cbb57-7740-4036-a9ba-0a07d21bac7c-0" data-bs-parent="#accordion466cbb57-7740-4036-a9ba-0a07d21bac7c">
         <div class="accordion-body">
             <div class="card">
                 <div class="card-header">Status codes:</div>
                 <ul class="list-group list-group-flush">
                     
-                
-                    
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status 405
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status 405
+                                        </div>
+                                         <small><span class="response-description">Invalid input</span></small> 
                                     </div>
-                                     <small><span class="response-description">Invalid input</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
                     
                 
                     
@@ -2578,7 +2601,7 @@
             class="accordion-button"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#collapse-Missing-pet-1"
+            data-bs-target="#collapse-Missing-466cbb57-7740-4036-a9ba-0a07d21bac7c-1"
             aria-expanded="true"
             aria-controls="collapse-1"
         >
@@ -2605,27 +2628,27 @@
             </div>
         </button>
     </h2>
-    <div id="collapse-Missing-pet-1" class="accordion-collapse collapse" aria-labelledby="heading-Missing-pet-1" data-bs-parent="#accordionpet">
+    <div id="collapse-Missing-466cbb57-7740-4036-a9ba-0a07d21bac7c-1" class="accordion-collapse collapse" aria-labelledby="heading-Missing-466cbb57-7740-4036-a9ba-0a07d21bac7c-1" data-bs-parent="#accordion466cbb57-7740-4036-a9ba-0a07d21bac7c">
         <div class="accordion-body">
             <div class="card">
                 <div class="card-header">Status codes:</div>
                 <ul class="list-group list-group-flush">
                     
-                
-                    
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status 200
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status 200
+                                        </div>
+                                         <small><span class="response-description">successful operation</span></small> 
                                     </div>
-                                     <small><span class="response-description">successful operation</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
                     
                 
                     
@@ -2693,7 +2716,7 @@
             class="accordion-button"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#collapse-Missing-pet-2"
+            data-bs-target="#collapse-Missing-466cbb57-7740-4036-a9ba-0a07d21bac7c-2"
             aria-expanded="true"
             aria-controls="collapse-2"
         >
@@ -2720,27 +2743,27 @@
             </div>
         </button>
     </h2>
-    <div id="collapse-Missing-pet-2" class="accordion-collapse collapse" aria-labelledby="heading-Missing-pet-2" data-bs-parent="#accordionpet">
+    <div id="collapse-Missing-466cbb57-7740-4036-a9ba-0a07d21bac7c-2" class="accordion-collapse collapse" aria-labelledby="heading-Missing-466cbb57-7740-4036-a9ba-0a07d21bac7c-2" data-bs-parent="#accordion466cbb57-7740-4036-a9ba-0a07d21bac7c">
         <div class="accordion-body">
             <div class="card">
                 <div class="card-header">Status codes:</div>
                 <ul class="list-group list-group-flush">
                     
-                
-                    
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status 405
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status 405
+                                        </div>
+                                         <small><span class="response-description">Invalid input</span></small> 
                                     </div>
-                                     <small><span class="response-description">Invalid input</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
                     
                 
                     
@@ -2780,7 +2803,7 @@
             class="accordion-button"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#collapse-Missing-pet-3"
+            data-bs-target="#collapse-Missing-466cbb57-7740-4036-a9ba-0a07d21bac7c-3"
             aria-expanded="true"
             aria-controls="collapse-3"
         >
@@ -2807,55 +2830,59 @@
             </div>
         </button>
     </h2>
-    <div id="collapse-Missing-pet-3" class="accordion-collapse collapse" aria-labelledby="heading-Missing-pet-3" data-bs-parent="#accordionpet">
+    <div id="collapse-Missing-466cbb57-7740-4036-a9ba-0a07d21bac7c-3" class="accordion-collapse collapse" aria-labelledby="heading-Missing-466cbb57-7740-4036-a9ba-0a07d21bac7c-3" data-bs-parent="#accordion466cbb57-7740-4036-a9ba-0a07d21bac7c">
         <div class="accordion-body">
             <div class="card">
                 <div class="card-header">Status codes:</div>
                 <ul class="list-group list-group-flush">
                     
-                
-                    
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status 400
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status 400
+                                        </div>
+                                         <small><span class="response-description">Invalid ID supplied</span></small> 
                                     </div>
-                                     <small><span class="response-description">Invalid ID supplied</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
                     
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status 404
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status 404
+                                        </div>
+                                         <small><span class="response-description">Pet not found</span></small> 
                                     </div>
-                                     <small><span class="response-description">Pet not found</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
                     
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status 405
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status 405
+                                        </div>
+                                         <small><span class="response-description">Validation exception</span></small> 
                                     </div>
-                                     <small><span class="response-description">Validation exception</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
                     
                 
                     
@@ -2895,7 +2922,7 @@
             class="accordion-button"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#collapse-Missing-pet-4"
+            data-bs-target="#collapse-Missing-466cbb57-7740-4036-a9ba-0a07d21bac7c-4"
             aria-expanded="true"
             aria-controls="collapse-4"
         >
@@ -2922,41 +2949,43 @@
             </div>
         </button>
     </h2>
-    <div id="collapse-Missing-pet-4" class="accordion-collapse collapse" aria-labelledby="heading-Missing-pet-4" data-bs-parent="#accordionpet">
+    <div id="collapse-Missing-466cbb57-7740-4036-a9ba-0a07d21bac7c-4" class="accordion-collapse collapse" aria-labelledby="heading-Missing-466cbb57-7740-4036-a9ba-0a07d21bac7c-4" data-bs-parent="#accordion466cbb57-7740-4036-a9ba-0a07d21bac7c">
         <div class="accordion-body">
             <div class="card">
                 <div class="card-header">Status codes:</div>
                 <ul class="list-group list-group-flush">
                     
-                
-                    
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status 200
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status 200
+                                        </div>
+                                         <small><span class="response-description">successful operation</span></small> 
                                     </div>
-                                     <small><span class="response-description">successful operation</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
                     
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status 400
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status 400
+                                        </div>
+                                         <small><span class="response-description">Invalid tag value</span></small> 
                                     </div>
-                                     <small><span class="response-description">Invalid tag value</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
                     
                 
                     
@@ -3001,14 +3030,14 @@
             class="accordion-button"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#collapse-Missing-store"
+            data-bs-target="#collapse-Missing-e8a5c2a1-49d8-45ff-9cae-ead634b4d3f7"
             aria-expanded="true"
             aria-controls="collapsestore"
         >
             store
         </button>
     </h2>
-    <div id="collapse-Missing-store" class="accordion-collapse collapse" aria-labelledby="headingstore" data-bs-parent="#accordionMissing">
+    <div id="collapse-Missing-e8a5c2a1-49d8-45ff-9cae-ead634b4d3f7" class="accordion-collapse collapse" aria-labelledby="heading-e8a5c2a1-49d8-45ff-9cae-ead634b4d3f7" data-bs-parent="#accordionMissing">
         <div class="accordion-body">
             <div class="accordion" id="accordionstore">
                  <div class="accordion-item">
@@ -3017,7 +3046,7 @@
             class="accordion-button"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#collapse-Missing-store-0"
+            data-bs-target="#collapse-Missing-e8a5c2a1-49d8-45ff-9cae-ead634b4d3f7-0"
             aria-expanded="true"
             aria-controls="collapse-0"
         >
@@ -3044,41 +3073,43 @@
             </div>
         </button>
     </h2>
-    <div id="collapse-Missing-store-0" class="accordion-collapse collapse" aria-labelledby="heading-Missing-store-0" data-bs-parent="#accordionstore">
+    <div id="collapse-Missing-e8a5c2a1-49d8-45ff-9cae-ead634b4d3f7-0" class="accordion-collapse collapse" aria-labelledby="heading-Missing-e8a5c2a1-49d8-45ff-9cae-ead634b4d3f7-0" data-bs-parent="#accordione8a5c2a1-49d8-45ff-9cae-ead634b4d3f7">
         <div class="accordion-body">
             <div class="card">
                 <div class="card-header">Status codes:</div>
                 <ul class="list-group list-group-flush">
                     
-                
-                    
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status 200
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status 200
+                                        </div>
+                                         <small><span class="response-description">successful operation</span></small> 
                                     </div>
-                                     <small><span class="response-description">successful operation</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
                     
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status 400
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status 400
+                                        </div>
+                                         <small><span class="response-description">Invalid Order</span></small> 
                                     </div>
-                                     <small><span class="response-description">Invalid Order</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
                     
                 
                     
@@ -3118,7 +3149,7 @@
             class="accordion-button"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#collapse-Missing-store-1"
+            data-bs-target="#collapse-Missing-e8a5c2a1-49d8-45ff-9cae-ead634b4d3f7-1"
             aria-expanded="true"
             aria-controls="collapse-1"
         >
@@ -3145,55 +3176,59 @@
             </div>
         </button>
     </h2>
-    <div id="collapse-Missing-store-1" class="accordion-collapse collapse" aria-labelledby="heading-Missing-store-1" data-bs-parent="#accordionstore">
+    <div id="collapse-Missing-e8a5c2a1-49d8-45ff-9cae-ead634b4d3f7-1" class="accordion-collapse collapse" aria-labelledby="heading-Missing-e8a5c2a1-49d8-45ff-9cae-ead634b4d3f7-1" data-bs-parent="#accordione8a5c2a1-49d8-45ff-9cae-ead634b4d3f7">
         <div class="accordion-body">
             <div class="card">
                 <div class="card-header">Status codes:</div>
                 <ul class="list-group list-group-flush">
                     
-                
-                    
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status 200
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status 200
+                                        </div>
+                                         <small><span class="response-description">successful operation</span></small> 
                                     </div>
-                                     <small><span class="response-description">successful operation</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
                     
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status 400
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status 400
+                                        </div>
+                                         <small><span class="response-description">Invalid ID supplied</span></small> 
                                     </div>
-                                     <small><span class="response-description">Invalid ID supplied</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
                     
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status 404
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status 404
+                                        </div>
+                                         <small><span class="response-description">Order not found</span></small> 
                                     </div>
-                                     <small><span class="response-description">Order not found</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
                     
                 
                     
@@ -3233,7 +3268,7 @@
             class="accordion-button"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#collapse-Missing-store-2"
+            data-bs-target="#collapse-Missing-e8a5c2a1-49d8-45ff-9cae-ead634b4d3f7-2"
             aria-expanded="true"
             aria-controls="collapse-2"
         >
@@ -3260,41 +3295,43 @@
             </div>
         </button>
     </h2>
-    <div id="collapse-Missing-store-2" class="accordion-collapse collapse" aria-labelledby="heading-Missing-store-2" data-bs-parent="#accordionstore">
+    <div id="collapse-Missing-e8a5c2a1-49d8-45ff-9cae-ead634b4d3f7-2" class="accordion-collapse collapse" aria-labelledby="heading-Missing-e8a5c2a1-49d8-45ff-9cae-ead634b4d3f7-2" data-bs-parent="#accordione8a5c2a1-49d8-45ff-9cae-ead634b4d3f7">
         <div class="accordion-body">
             <div class="card">
                 <div class="card-header">Status codes:</div>
                 <ul class="list-group list-group-flush">
                     
-                
-                    
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status 400
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status 400
+                                        </div>
+                                         <small><span class="response-description">Invalid ID supplied</span></small> 
                                     </div>
-                                     <small><span class="response-description">Invalid ID supplied</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
                     
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status 404
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status 404
+                                        </div>
+                                         <small><span class="response-description">Order not found</span></small> 
                                     </div>
-                                     <small><span class="response-description">Order not found</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
                     
                 
                     
@@ -3339,14 +3376,14 @@
             class="accordion-button"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#collapse-Missing-user"
+            data-bs-target="#collapse-Missing-64971873-88fa-493a-b477-a07370ef93ad"
             aria-expanded="true"
             aria-controls="collapseuser"
         >
             user
         </button>
     </h2>
-    <div id="collapse-Missing-user" class="accordion-collapse collapse" aria-labelledby="headinguser" data-bs-parent="#accordionMissing">
+    <div id="collapse-Missing-64971873-88fa-493a-b477-a07370ef93ad" class="accordion-collapse collapse" aria-labelledby="heading-64971873-88fa-493a-b477-a07370ef93ad" data-bs-parent="#accordionMissing">
         <div class="accordion-body">
             <div class="accordion" id="accordionuser">
                  <div class="accordion-item">
@@ -3355,7 +3392,7 @@
             class="accordion-button"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#collapse-Missing-user-0"
+            data-bs-target="#collapse-Missing-64971873-88fa-493a-b477-a07370ef93ad-0"
             aria-expanded="true"
             aria-controls="collapse-0"
         >
@@ -3382,27 +3419,27 @@
             </div>
         </button>
     </h2>
-    <div id="collapse-Missing-user-0" class="accordion-collapse collapse" aria-labelledby="heading-Missing-user-0" data-bs-parent="#accordionuser">
+    <div id="collapse-Missing-64971873-88fa-493a-b477-a07370ef93ad-0" class="accordion-collapse collapse" aria-labelledby="heading-Missing-64971873-88fa-493a-b477-a07370ef93ad-0" data-bs-parent="#accordion64971873-88fa-493a-b477-a07370ef93ad">
         <div class="accordion-body">
             <div class="card">
                 <div class="card-header">Status codes:</div>
                 <ul class="list-group list-group-flush">
                     
-                
-                    
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status default
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status default
+                                        </div>
+                                         <small><span class="response-description">successful operation</span></small> 
                                     </div>
-                                     <small><span class="response-description">successful operation</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
                     
                 
                     
@@ -3442,7 +3479,7 @@
             class="accordion-button"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#collapse-Missing-user-1"
+            data-bs-target="#collapse-Missing-64971873-88fa-493a-b477-a07370ef93ad-1"
             aria-expanded="true"
             aria-controls="collapse-1"
         >
@@ -3469,55 +3506,59 @@
             </div>
         </button>
     </h2>
-    <div id="collapse-Missing-user-1" class="accordion-collapse collapse" aria-labelledby="heading-Missing-user-1" data-bs-parent="#accordionuser">
+    <div id="collapse-Missing-64971873-88fa-493a-b477-a07370ef93ad-1" class="accordion-collapse collapse" aria-labelledby="heading-Missing-64971873-88fa-493a-b477-a07370ef93ad-1" data-bs-parent="#accordion64971873-88fa-493a-b477-a07370ef93ad">
         <div class="accordion-body">
             <div class="card">
                 <div class="card-header">Status codes:</div>
                 <ul class="list-group list-group-flush">
                     
-                
-                    
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status 200
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status 200
+                                        </div>
+                                         <small><span class="response-description">successful operation</span></small> 
                                     </div>
-                                     <small><span class="response-description">successful operation</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
                     
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status 400
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status 400
+                                        </div>
+                                         <small><span class="response-description">Invalid username supplied</span></small> 
                                     </div>
-                                     <small><span class="response-description">Invalid username supplied</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
                     
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status 404
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status 404
+                                        </div>
+                                         <small><span class="response-description">User not found</span></small> 
                                     </div>
-                                     <small><span class="response-description">User not found</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
                     
                 
                     
@@ -3557,7 +3598,7 @@
             class="accordion-button"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#collapse-Missing-user-2"
+            data-bs-target="#collapse-Missing-64971873-88fa-493a-b477-a07370ef93ad-2"
             aria-expanded="true"
             aria-controls="collapse-2"
         >
@@ -3584,41 +3625,43 @@
             </div>
         </button>
     </h2>
-    <div id="collapse-Missing-user-2" class="accordion-collapse collapse" aria-labelledby="heading-Missing-user-2" data-bs-parent="#accordionuser">
+    <div id="collapse-Missing-64971873-88fa-493a-b477-a07370ef93ad-2" class="accordion-collapse collapse" aria-labelledby="heading-Missing-64971873-88fa-493a-b477-a07370ef93ad-2" data-bs-parent="#accordion64971873-88fa-493a-b477-a07370ef93ad">
         <div class="accordion-body">
             <div class="card">
                 <div class="card-header">Status codes:</div>
                 <ul class="list-group list-group-flush">
                     
-                
-                    
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status 400
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status 400
+                                        </div>
+                                         <small><span class="response-description">Invalid user supplied</span></small> 
                                     </div>
-                                     <small><span class="response-description">Invalid user supplied</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
                     
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status 404
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status 404
+                                        </div>
+                                         <small><span class="response-description">User not found</span></small> 
                                     </div>
-                                     <small><span class="response-description">User not found</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
                     
                 
                     
@@ -3672,7 +3715,7 @@
             class="accordion-button"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#collapse-Missing-user-3"
+            data-bs-target="#collapse-Missing-64971873-88fa-493a-b477-a07370ef93ad-3"
             aria-expanded="true"
             aria-controls="collapse-3"
         >
@@ -3699,41 +3742,43 @@
             </div>
         </button>
     </h2>
-    <div id="collapse-Missing-user-3" class="accordion-collapse collapse" aria-labelledby="heading-Missing-user-3" data-bs-parent="#accordionuser">
+    <div id="collapse-Missing-64971873-88fa-493a-b477-a07370ef93ad-3" class="accordion-collapse collapse" aria-labelledby="heading-Missing-64971873-88fa-493a-b477-a07370ef93ad-3" data-bs-parent="#accordion64971873-88fa-493a-b477-a07370ef93ad">
         <div class="accordion-body">
             <div class="card">
                 <div class="card-header">Status codes:</div>
                 <ul class="list-group list-group-flush">
                     
-                
-                    
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status 400
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status 400
+                                        </div>
+                                         <small><span class="response-description">Invalid username supplied</span></small> 
                                     </div>
-                                     <small><span class="response-description">Invalid username supplied</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
                     
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status 404
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status 404
+                                        </div>
+                                         <small><span class="response-description">User not found</span></small> 
                                     </div>
-                                     <small><span class="response-description">User not found</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
                     
                 
                     
@@ -3773,7 +3818,7 @@
             class="accordion-button"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#collapse-Missing-user-4"
+            data-bs-target="#collapse-Missing-64971873-88fa-493a-b477-a07370ef93ad-4"
             aria-expanded="true"
             aria-controls="collapse-4"
         >
@@ -3800,41 +3845,43 @@
             </div>
         </button>
     </h2>
-    <div id="collapse-Missing-user-4" class="accordion-collapse collapse" aria-labelledby="heading-Missing-user-4" data-bs-parent="#accordionuser">
+    <div id="collapse-Missing-64971873-88fa-493a-b477-a07370ef93ad-4" class="accordion-collapse collapse" aria-labelledby="heading-Missing-64971873-88fa-493a-b477-a07370ef93ad-4" data-bs-parent="#accordion64971873-88fa-493a-b477-a07370ef93ad">
         <div class="accordion-body">
             <div class="card">
                 <div class="card-header">Status codes:</div>
                 <ul class="list-group list-group-flush">
                     
-                
-                    
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status 200
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status 200
+                                        </div>
+                                         <small><span class="response-description">successful operation</span></small> 
                                     </div>
-                                     <small><span class="response-description">successful operation</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
                     
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status 400
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status 400
+                                        </div>
+                                         <small><span class="response-description">Invalid username/password supplied</span></small> 
                                     </div>
-                                     <small><span class="response-description">Invalid username/password supplied</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
                     
                 
                     
@@ -3888,7 +3935,7 @@
             class="accordion-button"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#collapse-Missing-user-5"
+            data-bs-target="#collapse-Missing-64971873-88fa-493a-b477-a07370ef93ad-5"
             aria-expanded="true"
             aria-controls="collapse-5"
         >
@@ -3915,27 +3962,27 @@
             </div>
         </button>
     </h2>
-    <div id="collapse-Missing-user-5" class="accordion-collapse collapse" aria-labelledby="heading-Missing-user-5" data-bs-parent="#accordionuser">
+    <div id="collapse-Missing-64971873-88fa-493a-b477-a07370ef93ad-5" class="accordion-collapse collapse" aria-labelledby="heading-Missing-64971873-88fa-493a-b477-a07370ef93ad-5" data-bs-parent="#accordion64971873-88fa-493a-b477-a07370ef93ad">
         <div class="accordion-body">
             <div class="card">
                 <div class="card-header">Status codes:</div>
                 <ul class="list-group list-group-flush">
                     
-                
-                    
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status default
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status default
+                                        </div>
+                                         <small><span class="response-description">successful operation</span></small> 
                                     </div>
-                                     <small><span class="response-description">successful operation</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
                     
                 
                     
@@ -3951,7 +3998,7 @@
             class="accordion-button"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#collapse-Missing-user-6"
+            data-bs-target="#collapse-Missing-64971873-88fa-493a-b477-a07370ef93ad-6"
             aria-expanded="true"
             aria-controls="collapse-6"
         >
@@ -3978,27 +4025,27 @@
             </div>
         </button>
     </h2>
-    <div id="collapse-Missing-user-6" class="accordion-collapse collapse" aria-labelledby="heading-Missing-user-6" data-bs-parent="#accordionuser">
+    <div id="collapse-Missing-64971873-88fa-493a-b477-a07370ef93ad-6" class="accordion-collapse collapse" aria-labelledby="heading-Missing-64971873-88fa-493a-b477-a07370ef93ad-6" data-bs-parent="#accordion64971873-88fa-493a-b477-a07370ef93ad">
         <div class="accordion-body">
             <div class="card">
                 <div class="card-header">Status codes:</div>
                 <ul class="list-group list-group-flush">
                     
-                
-                    
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status default
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status default
+                                        </div>
+                                         <small><span class="response-description">successful operation</span></small> 
                                     </div>
-                                     <small><span class="response-description">successful operation</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
                     
                 
                     
@@ -4038,7 +4085,7 @@
             class="accordion-button"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#collapse-Missing-user-7"
+            data-bs-target="#collapse-Missing-64971873-88fa-493a-b477-a07370ef93ad-7"
             aria-expanded="true"
             aria-controls="collapse-7"
         >
@@ -4065,27 +4112,27 @@
             </div>
         </button>
     </h2>
-    <div id="collapse-Missing-user-7" class="accordion-collapse collapse" aria-labelledby="heading-Missing-user-7" data-bs-parent="#accordionuser">
+    <div id="collapse-Missing-64971873-88fa-493a-b477-a07370ef93ad-7" class="accordion-collapse collapse" aria-labelledby="heading-Missing-64971873-88fa-493a-b477-a07370ef93ad-7" data-bs-parent="#accordion64971873-88fa-493a-b477-a07370ef93ad">
         <div class="accordion-body">
             <div class="card">
                 <div class="card-header">Status codes:</div>
                 <ul class="list-group list-group-flush">
                     
-                
-                    
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status default
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status default
+                                        </div>
+                                         <small><span class="response-description">successful operation</span></small> 
                                     </div>
-                                     <small><span class="response-description">successful operation</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
                     
                 
                     
@@ -4136,14 +4183,14 @@
             class="accordion-button"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#collapse-Partial-pet"
+            data-bs-target="#collapse-Partial-dec44eab-4b5e-48c9-8609-6fe20161f0fa"
             aria-expanded="true"
             aria-controls="collapsepet"
         >
             pet
         </button>
     </h2>
-    <div id="collapse-Partial-pet" class="accordion-collapse collapse" aria-labelledby="headingpet" data-bs-parent="#accordionPartial">
+    <div id="collapse-Partial-dec44eab-4b5e-48c9-8609-6fe20161f0fa" class="accordion-collapse collapse" aria-labelledby="heading-dec44eab-4b5e-48c9-8609-6fe20161f0fa" data-bs-parent="#accordionPartial">
         <div class="accordion-body">
             <div class="accordion" id="accordionpet">
                  <div class="accordion-item">
@@ -4152,7 +4199,7 @@
             class="accordion-button"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#collapse-Partial-pet-0"
+            data-bs-target="#collapse-Partial-dec44eab-4b5e-48c9-8609-6fe20161f0fa-0"
             aria-expanded="true"
             aria-controls="collapse-0"
         >
@@ -4179,27 +4226,27 @@
             </div>
         </button>
     </h2>
-    <div id="collapse-Partial-pet-0" class="accordion-collapse collapse" aria-labelledby="heading-Partial-pet-0" data-bs-parent="#accordionpet">
+    <div id="collapse-Partial-dec44eab-4b5e-48c9-8609-6fe20161f0fa-0" class="accordion-collapse collapse" aria-labelledby="heading-Partial-dec44eab-4b5e-48c9-8609-6fe20161f0fa-0" data-bs-parent="#accordiondec44eab-4b5e-48c9-8609-6fe20161f0fa">
         <div class="accordion-body">
             <div class="card">
                 <div class="card-header">Status codes:</div>
                 <ul class="list-group list-group-flush">
                     
-                
-                    
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status 400
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status 400
+                                        </div>
+                                         <small><span class="response-description">Invalid ID supplied</span></small> 
                                     </div>
-                                     <small><span class="response-description">Invalid ID supplied</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
                     
                 
                     
@@ -4210,9 +4257,9 @@
                                     <div class="ms-2 me-auto">
                                         <div>
                                             <i class="bi bi-check2"></i>
-                                            HTTP status 200
+                                            HTTP status 404
                                         </div>
-                                         <small><span class="response-description">successful operation</span></small> 
+                                         <small><span class="response-description">Pet not found</span></small> 
                                     </div>
                                 </div>
                             </div>    
@@ -4226,9 +4273,9 @@
                                     <div class="ms-2 me-auto">
                                         <div>
                                             <i class="bi bi-check2"></i>
-                                            HTTP status 404
+                                            HTTP status 200
                                         </div>
-                                         <small><span class="response-description">Pet not found</span></small> 
+                                         <small><span class="response-description">successful operation</span></small> 
                                     </div>
                                 </div>
                             </div>    
@@ -4250,32 +4297,18 @@
                             <div class="accordion-item covered-parameter-item">
                                 <div class="row">
                                     <div class="col-12">
-                                        <button class="accordion-button covered-parameter-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-param-0-GET-v2-pet-petId" aria-expanded="true" aria-controls="collapse-param-0">
+                                        <button class="accordion-button covered-parameter-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-param-0-GET50fb39b9-351d-43f8-b5b6-8fea71a5a81d" aria-expanded="true" aria-controls="collapse-param-0">
                                             <div>
                                                 <i class="bi bi-check2"></i>
                                                 In path parameter {petId}
                                             </div>
                                         </button> 
-                                        <div id="collapse-param-0-GET-v2-pet-petId" class="accordion-collapse collapse covered-parameter-body" aria-labelledby="collapse-param-0" data-bs-parent="#accordionExample">
+                                        <div id="collapse-param-0-GET50fb39b9-351d-43f8-b5b6-8fea71a5a81d" class="accordion-collapse collapse covered-parameter-body" aria-labelledby="collapse-param-0" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
                                                 
                                                         
                                                     <div>
-                                                        <small>Covered petId: 2 (200)</small>
-                                                    </div>
-                                                    
-                                                    
-                                                
-                                                        
-                                                    <div>
-                                                        <small>Covered petId: 1 (404)</small>
-                                                    </div>
-                                                    
-                                                    
-                                                
-                                                        
-                                                    <div>
-                                                        <small>Covered petId: None (404)</small>
+                                                        <small>Covered petId: 2 (404)</small>
                                                     </div>
                                                     
                                                     
@@ -4283,6 +4316,20 @@
                                                         
                                                     <div>
                                                         <small>Covered petId: 3 (404)</small>
+                                                    </div>
+                                                    
+                                                    
+                                                
+                                                        
+                                                    <div>
+                                                        <small>Covered petId: 1 (200)</small>
+                                                    </div>
+                                                    
+                                                    
+                                                
+                                                        
+                                                    <div>
+                                                        <small>Covered petId: None (404)</small>
                                                     </div>
                                                     
                                                     
@@ -4312,7 +4359,7 @@
             class="accordion-button"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#collapse-Partial-pet-1"
+            data-bs-target="#collapse-Partial-dec44eab-4b5e-48c9-8609-6fe20161f0fa-1"
             aria-expanded="true"
             aria-controls="collapse-1"
         >
@@ -4327,39 +4374,55 @@
                         <div
                             class="progress-bar progress-bar-striped bg-warning"
                             role="progressbar"
-                            style="width: 67%"
+                            style="width: 33%"
                             aria-valuenow=""
                             aria-valuemin="0"
                             aria-valuemax="100"
                         >
-                            67
+                            33
                         </div>
                     </div>
                 </div>
             </div>
         </button>
     </h2>
-    <div id="collapse-Partial-pet-1" class="accordion-collapse collapse" aria-labelledby="heading-Partial-pet-1" data-bs-parent="#accordionpet">
+    <div id="collapse-Partial-dec44eab-4b5e-48c9-8609-6fe20161f0fa-1" class="accordion-collapse collapse" aria-labelledby="heading-Partial-dec44eab-4b5e-48c9-8609-6fe20161f0fa-1" data-bs-parent="#accordiondec44eab-4b5e-48c9-8609-6fe20161f0fa">
         <div class="accordion-body">
             <div class="card">
                 <div class="card-header">Status codes:</div>
                 <ul class="list-group list-group-flush">
                     
-                
-                    
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status 400
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status 400
+                                        </div>
+                                         <small><span class="response-description">Invalid ID supplied</span></small> 
                                     </div>
-                                     <small><span class="response-description">Invalid ID supplied</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
+                    
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status 404
+                                        </div>
+                                         <small><span class="response-description">Pet not found</span></small> 
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                            
                     
                 
                     
@@ -4379,22 +4442,6 @@
                         </li>
                             
                     
-                        
-                        <li class="list-group-item list-group-item-success">
-                            <div class="row">
-                                <div class="col-12">  
-                                    <div class="ms-2 me-auto">
-                                        <div>
-                                            <i class="bi bi-check2"></i>
-                                            HTTP status 404
-                                        </div>
-                                         <small><span class="response-description">Pet not found</span></small> 
-                                    </div>
-                                </div>
-                            </div>    
-                        </li>
-                            
-                    
                 </ul>
             </div>
             
@@ -4410,25 +4457,25 @@
                             <div class="accordion-item covered-parameter-item">
                                 <div class="row">
                                     <div class="col-12">
-                                        <button class="accordion-button covered-parameter-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-param-0-DELETE-v2-pet-petId" aria-expanded="true" aria-controls="collapse-param-0">
+                                        <button class="accordion-button covered-parameter-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-param-0-DELETE64aff24d-f0db-47b4-aa72-c9c310f85dfd" aria-expanded="true" aria-controls="collapse-param-0">
                                             <div>
                                                 <i class="bi bi-check2"></i>
                                                 In path parameter {petId}
                                             </div>
                                         </button> 
-                                        <div id="collapse-param-0-DELETE-v2-pet-petId" class="accordion-collapse collapse covered-parameter-body" aria-labelledby="collapse-param-0" data-bs-parent="#accordionExample">
+                                        <div id="collapse-param-0-DELETE64aff24d-f0db-47b4-aa72-c9c310f85dfd" class="accordion-collapse collapse covered-parameter-body" aria-labelledby="collapse-param-0" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
                                                 
                                                         
                                                     <div>
-                                                        <small>Covered petId: 10 (200)</small>
+                                                        <small>Covered petId: 1 (200)</small>
                                                     </div>
                                                     
                                                     
                                                 
                                                         
                                                     <div>
-                                                        <small>Covered petId: 1 (404)</small>
+                                                        <small>Covered petId: 10 (200)</small>
                                                     </div>
                                                     
                                                     
@@ -4458,7 +4505,7 @@
             class="accordion-button"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#collapse-Partial-pet-2"
+            data-bs-target="#collapse-Partial-dec44eab-4b5e-48c9-8609-6fe20161f0fa-2"
             aria-expanded="true"
             aria-controls="collapse-2"
         >
@@ -4485,27 +4532,27 @@
             </div>
         </button>
     </h2>
-    <div id="collapse-Partial-pet-2" class="accordion-collapse collapse" aria-labelledby="heading-Partial-pet-2" data-bs-parent="#accordionpet">
+    <div id="collapse-Partial-dec44eab-4b5e-48c9-8609-6fe20161f0fa-2" class="accordion-collapse collapse" aria-labelledby="heading-Partial-dec44eab-4b5e-48c9-8609-6fe20161f0fa-2" data-bs-parent="#accordiondec44eab-4b5e-48c9-8609-6fe20161f0fa">
         <div class="accordion-body">
             <div class="card">
                 <div class="card-header">Status codes:</div>
                 <ul class="list-group list-group-flush">
                     
-                
-                    
-                    <li class="list-group-item list-group-item-danger">
-                        <div class="row">
-                            <div class="col-12">                                
-                                <div class="ms-2 me-auto">
-                                    <div>
-                                        <i class="bi bi-bug-fill"></i>
-                                        HTTP status 400
+                        
+                        <li class="list-group-item list-group-item-danger">
+                            <div class="row">
+                                <div class="col-12">                                
+                                    <div class="ms-2 me-auto">
+                                        <div>
+                                            <i class="bi bi-bug-fill"></i>
+                                            HTTP status 400
+                                        </div>
+                                         <small><span class="response-description">Invalid status value</span></small> 
                                     </div>
-                                     <small><span class="response-description">Invalid status value</span></small> 
                                 </div>
                             </div>
-                        </div>
-                    </li>
+                        </li>
+                            
                     
                 
                     
@@ -4540,18 +4587,18 @@
                             <div class="accordion-item covered-parameter-item">
                                 <div class="row">
                                     <div class="col-12">
-                                        <button class="accordion-button covered-parameter-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-param-0-GET-v2-pet-findByStatus" aria-expanded="true" aria-controls="collapse-param-0">
+                                        <button class="accordion-button covered-parameter-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-param-0-GET651157be-632e-46d9-a268-d13d6e94a4ea" aria-expanded="true" aria-controls="collapse-param-0">
                                             <div>
                                                 <i class="bi bi-check2"></i>
                                                 In query parameter {status}
                                             </div>
                                         </button> 
-                                        <div id="collapse-param-0-GET-v2-pet-findByStatus" class="accordion-collapse collapse covered-parameter-body" aria-labelledby="collapse-param-0" data-bs-parent="#accordionExample">
+                                        <div id="collapse-param-0-GET651157be-632e-46d9-a268-d13d6e94a4ea" class="accordion-collapse collapse covered-parameter-body" aria-labelledby="collapse-param-0" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
                                                 
                                                         
                                                     <div>
-                                                        <small>Covered status: sold, available (200)</small>
+                                                        <small>Covered status: sold (200)</small>
                                                     </div>
                                                     
                                                     
@@ -4572,7 +4619,7 @@
                                                 
                                                         
                                                     <div>
-                                                        <small>Covered status: sold (200)</small>
+                                                        <small>Covered status: sold, available (200)</small>
                                                     </div>
                                                     
                                                     
@@ -4617,11 +4664,11 @@
                             </div>
                         </div>
 
-                        <div class="tab-pane fade show" id="conditional" role="tabpanel" aria-labelledby="full-tab">
+                        <!-- <div class="tab-pane fade show" id="conditional" role="tabpanel" aria-labelledby="full-tab">
                             <div class="accordion" id="accordionConditional">
                                 
                             </div>
-                        </div>
+                        </div> -->
 
                         <div class="tab-pane fade show" id="covered" role="tabpanel" aria-labelledby="full-tab">
                             <div class="accordion" id="accordionFull">
@@ -4631,14 +4678,14 @@
             class="accordion-button"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#collapse-Full-store"
+            data-bs-target="#collapse-Full-94a11258-08a5-4edf-b6d7-8be8e0ae7b72"
             aria-expanded="true"
             aria-controls="collapsestore"
         >
             store
         </button>
     </h2>
-    <div id="collapse-Full-store" class="accordion-collapse collapse" aria-labelledby="headingstore" data-bs-parent="#accordionFull">
+    <div id="collapse-Full-94a11258-08a5-4edf-b6d7-8be8e0ae7b72" class="accordion-collapse collapse" aria-labelledby="heading-94a11258-08a5-4edf-b6d7-8be8e0ae7b72" data-bs-parent="#accordionFull">
         <div class="accordion-body">
             <div class="accordion" id="accordionstore">
                  <div class="accordion-item">
@@ -4647,7 +4694,7 @@
             class="accordion-button"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#collapse-Full-store-0"
+            data-bs-target="#collapse-Full-94a11258-08a5-4edf-b6d7-8be8e0ae7b72-0"
             aria-expanded="true"
             aria-controls="collapse-0"
         >
@@ -4674,13 +4721,11 @@
             </div>
         </button>
     </h2>
-    <div id="collapse-Full-store-0" class="accordion-collapse collapse" aria-labelledby="heading-Full-store-0" data-bs-parent="#accordionstore">
+    <div id="collapse-Full-94a11258-08a5-4edf-b6d7-8be8e0ae7b72-0" class="accordion-collapse collapse" aria-labelledby="heading-Full-94a11258-08a5-4edf-b6d7-8be8e0ae7b72-0" data-bs-parent="#accordion94a11258-08a5-4edf-b6d7-8be8e0ae7b72">
         <div class="accordion-body">
             <div class="card">
                 <div class="card-header">Status codes:</div>
                 <ul class="list-group list-group-flush">
-                    
-                
                     
                 
                     
@@ -4719,6 +4764,6 @@
                 </div>
             </div>
         </div>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+        <script src="./assets/js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
