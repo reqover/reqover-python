@@ -59,7 +59,8 @@ jobs:
           docker run -v $PWD:/reqover \
             -v $PWD/reqover-results:/tmp/data \
             -v $PWD/swagger.json:/tmp/swagger.json \
-            reqover/reqover-cli generate -f /tmp/swagger.json -d /tmp/data -p /v2 --html
+            -v $PWD/reqover.config.json:/tmp/reqover.config.json \
+            reqover/reqover-cli generate -f /tmp/swagger.json -d /tmp/data -p /v2 --config=/tmp/reqover.config.json --html
 
       - uses: actions/upload-artifact@v3
         with:
