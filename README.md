@@ -30,3 +30,6 @@ docker run -v $PWD:/reqover \
 -v $PWD/swagger.json:/tmp/swagger.json \
 reqover/reqover-cli generate -f /tmp/swagger.json -d /tmp/data -p /v2 --html                        
 ```
+
+### License
+Reqover python is distributed under the terms of the [Apache license 2.0](http://www.apache.org/licenses/LICENSE-2.0)
